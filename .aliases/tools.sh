@@ -1,0 +1,10 @@
+alias ls='eza --icons --group-directories-first'      # Modern replacement for ls with icons and better formatting.
+alias ll='eza -lah --icons --group-directories-first' # Detailed file listing with human-readable sizes.
+alias tree='eza --tree --icons'                       # Display directory trees with icons.
+alias cat='bat'                                       # Syntax-highlighted file viewer with line numbers.
+alias find='fd'                                       # Faster, more user-friendly alternative to find.
+alias du='dust'                                       # Interactive disk usage viewer.
+alias ps='procs'                                      # Modern process viewer with improved output.
+alias top='btop'                                      # Rich system monitor with an interactive interface.
+alias ping='gping'                                    # Ping with a live graphical latency chart.
+alias diff='delta'                                    # Beautiful side-by-side Git and file diffs.
